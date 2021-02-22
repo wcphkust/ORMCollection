@@ -8,7 +8,9 @@ The project refers to the [blog](https://www.codementor.io/@garethdwyer/building
 SQLAlchemy provides a collection of [Query APIs](https://docs.sqlalchemy.org/en/13/orm/query.html#sqlalchemy.orm.query.Query) to support the manipulation on database
 
 ### Performance Issues of SQLAlchemy
+- [Better SQLAlchemy](https://www.mybluelinux.com/better-sqlalchemy/)
 - [SQLAlchemy Performance Anti-Patterns and Their Fixes](https://dev.to/zchtodd/sqlalchemy-performance-anti-patterns-and-their-fixes-4bmm)
+- [Fast SQLAlchemy counting](https://gist.github.com/hest/8798884)
 
 
 ## Ruby
@@ -23,3 +25,9 @@ Built-in test module supports query time profiling by [writing tests](https://gu
 ### Performance Issues of Rails
 - [Eliminating the N+1 query problems](https://www.ibm.com/developerworks/library/os-railsn1/index.html)
 - [How not to structure your database-backed web applications](https://hyperloop-rails.github.io/220-HowNotStructure.pdf)
+
+## Bug Case in Real-World Project
+- CTFd
+    - [first() vs fetchone()](https://github.com/CTFd/CTFd/issues/1402) pattern fixed by  [Patch](https://github.com/CTFd/CTFd/pull/1450/commits/049a243f53e1974bea806df50e80bb876eb0a7a5)
+
+
